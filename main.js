@@ -1,6 +1,5 @@
-// const rootElement = document.getElementById("root");
+function Greeter() {
+  return <h3>Hi</h3>;
+}
 
-// const element = document.createElement("div");
-// element.textContent = "Hello World";
-// element.className = "container";
-// rootElement.appendChild(element);
+ReactDOM.createRoot(document.getElementById('root')).render(<Greeter />);
