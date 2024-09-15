@@ -4,13 +4,15 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "serve -s -p 5001"
+    "start": "serve -s -p 5001",
+    "api": "json-server ./api/db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/standalone": "^7.25.6",
+    "json-server": "^0.17.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "serve": "^14.2.1"
